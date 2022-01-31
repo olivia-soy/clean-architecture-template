@@ -35,3 +35,4 @@ Android Clean Architecture template
   - [Glide](https://bumptech.github.io/glide/) for image loading
   - [Hilt](https://developer.android.com/training/dependency-injection/hilt-android): for [dependency injection](https://developer.android.com/training/dependency-injection)
   - [Kotlin Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) for managing background threads with simplified code and reducing needs for callbacks
+  - [retrofit2](https://square.github.io/retrofit/) 
