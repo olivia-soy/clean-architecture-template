@@ -1,6 +1,6 @@
 # Architecture-Template
 ## Overview
-<img width="1004" alt="android clean architecture by olivia" src="https://user-images.githubusercontent.com/59822833/151774778-73dae504-2903-49db-9489-bdfa9ff8b38b.png">
+<img width="984" alt="android clean architecture by olivia" src="https://user-images.githubusercontent.com/59822833/151776811-81232866-1f45-4bc0-99ed-22a90d24ea74.png">
 Android Clean Architecture template  
 
   - min sdk 21 
