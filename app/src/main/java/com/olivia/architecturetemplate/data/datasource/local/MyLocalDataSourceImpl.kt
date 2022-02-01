@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 class MyLocalDataSourceImpl @Inject constructor(private val myDao: MyDao) :
     MyLocalDataSource {
-    override suspend fun getUserBySearchWordAsFlow(searchWord: String?): Flow<List<User>> =
+    override fun getUserBySearchWordAsFlow(searchWord: String?): Flow<List<User>> =
         if (searchWord == null)
             myDao.getUserAsFlow()
         else

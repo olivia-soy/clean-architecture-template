@@ -13,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
  */
 
 interface MyRepository {
-    suspend fun observeList(searchWord: String?): Flow<List<UserModel>>
+    fun observeList(searchWord: String?): Flow<List<UserModel>>
     suspend fun requestList(searchWord: String, page: Int): SearchUserResponseData?
     suspend fun insertUser(user: User)
     suspend fun deleteUser(userId: Int)

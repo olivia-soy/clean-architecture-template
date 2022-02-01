@@ -1,4 +1,4 @@
-package com.olivia.architecturetemplate.data.di
+package com.olivia.architecturetemplate.presentation.di
 
 import android.content.Context
 import androidx.room.Room

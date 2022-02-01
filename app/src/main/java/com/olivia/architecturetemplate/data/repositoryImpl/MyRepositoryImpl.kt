@@ -22,7 +22,7 @@ class MyRepositoryImpl @Inject constructor(
     private val myLocalDataSource: MyLocalDataSource,
     private val myRemoteDataSource: MyRemoteDataSource
 ) : MyRepository {
-    override suspend fun observeList(searchWord: String?): Flow<List<UserModel>> =
+    override fun observeList(searchWord: String?): Flow<List<UserModel>> =
         myLocalDataSource.getUserBySearchWordAsFlow(searchWord).map {
             it.map { user ->
                 user.toUserModel()

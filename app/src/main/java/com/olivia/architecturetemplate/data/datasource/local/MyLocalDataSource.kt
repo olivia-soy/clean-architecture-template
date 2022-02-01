@@ -11,7 +11,7 @@ import kotlinx.coroutines.flow.Flow
  */
 
 interface MyLocalDataSource {
-    suspend fun getUserBySearchWordAsFlow(searchWord: String?): Flow<List<User>>
+    fun getUserBySearchWordAsFlow(searchWord: String?): Flow<List<User>>
     suspend fun deleteById(userId: Int)
     suspend fun insertUser(user: User)
 }

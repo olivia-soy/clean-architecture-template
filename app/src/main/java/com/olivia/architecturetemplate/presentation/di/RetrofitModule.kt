@@ -1,4 +1,4 @@
-package com.olivia.architecturetemplate.data.di
+package com.olivia.architecturetemplate.presentation.di
 
 import com.olivia.architecturetemplate.data.retrofit.api.SearchUserApi
 import dagger.Module
