@@ -3,7 +3,7 @@ package com.olivia.architecturetemplate.data.datasource.remote
 import com.olivia.architecturetemplate.data.retrofit.response.SearchUserResponseData
 
 /**
- * architecture template
+ * My Architecture template
  * UserRemoteDataSource
  * @author leesoyoung
  * @since 2021/12/29

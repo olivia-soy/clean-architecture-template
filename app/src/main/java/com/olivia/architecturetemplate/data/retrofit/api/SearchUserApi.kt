@@ -5,7 +5,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 /**
- * architecture template
+ * My Architecture template
  * search User
  * @author leesoyoung
  * @since 2021/12/29

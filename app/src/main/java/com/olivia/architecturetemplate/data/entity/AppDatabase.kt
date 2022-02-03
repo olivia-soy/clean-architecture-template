@@ -6,7 +6,7 @@ import com.olivia.architecturetemplate.data.entity.AppDatabase.Companion.DATA_BA
 import com.olivia.architecturetemplate.data.entity.dao.MyDao
 
 /**
- * architecture template
+ * My Architecture template
  * AppDatabase
  * @author leesoyoung
  * @since 2021/12/29

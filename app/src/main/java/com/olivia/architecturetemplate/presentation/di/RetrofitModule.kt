@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import javax.inject.Singleton
 
 /**
- * architecture template
+ * My Architecture template
  * Retrofit module
  * @author leesoyoung
  * @since 2021/12/29

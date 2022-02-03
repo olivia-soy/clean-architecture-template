@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
 /**
- * architecture template
+ * My Architecture template
  * SearchUserRepository implement
  * @author leesoyoung
  * @since 2021/12/29

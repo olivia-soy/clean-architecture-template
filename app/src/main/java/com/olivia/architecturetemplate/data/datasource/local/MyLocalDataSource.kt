@@ -4,7 +4,7 @@ import com.olivia.architecturetemplate.data.entity.User
 import kotlinx.coroutines.flow.Flow
 
 /**
- * architecture template
+ * My Architecture template
  * local data source
  * @author leesoyoung
  * @since 2021/12/29

@@ -5,7 +5,7 @@ import androidx.room.Insert
 import androidx.room.Update
 
 /**
- * architecture template
+ * My Architecture template
  * BaseDao
  * @author leesoyoung
  * @since 2021/12/29

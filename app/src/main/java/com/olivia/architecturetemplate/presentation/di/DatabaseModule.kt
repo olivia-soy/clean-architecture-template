@@ -12,7 +12,7 @@ import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
 /**
- * architecture template
+ * My Architecture template
  * DataBaseModule
  * @author leesoyoung
  * @since 2021/12/29

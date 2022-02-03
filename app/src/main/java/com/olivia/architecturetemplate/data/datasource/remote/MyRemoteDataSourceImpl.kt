@@ -5,7 +5,7 @@ import com.olivia.architecturetemplate.data.retrofit.response.SearchUserResponse
 import javax.inject.Inject
 
 /**
- * architecture template
+ * My Architecture template
  * UserRemoteDataSource Implement
  * @author leesoyoung
  * @since 2021/12/29

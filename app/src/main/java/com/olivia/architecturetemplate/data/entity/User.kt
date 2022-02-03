@@ -4,7 +4,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 /**
- * architecture template
+ * My Architecture template
  * user
  * @author leesoyoung
  * @since 2021/12/29

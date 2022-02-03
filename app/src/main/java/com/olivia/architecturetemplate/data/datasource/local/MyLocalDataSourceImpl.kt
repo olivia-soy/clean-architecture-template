@@ -6,7 +6,7 @@ import kotlinx.coroutines.flow.Flow
 import javax.inject.Inject
 
 /**
- * architecture template
+ * My Architecture template
  * LocalDataSource implement
  * @author leesoyoung
  * @since 2021/12/29
