@@ -4,7 +4,7 @@ import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * myapp
  * @author leesoyoung
  * @since 2021/12/28

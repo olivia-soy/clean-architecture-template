@@ -7,7 +7,7 @@ import kotlinx.coroutines.flow.flowOn
 import kotlinx.coroutines.flow.onStart
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * FlowUseCase
  * @author leesoyoung
  * @since 2021/12/28

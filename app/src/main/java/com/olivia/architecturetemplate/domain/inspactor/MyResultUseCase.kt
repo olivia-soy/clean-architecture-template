@@ -7,7 +7,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * ResultUseCase
  * @author leesoyoung
  * @since 2021/12/28

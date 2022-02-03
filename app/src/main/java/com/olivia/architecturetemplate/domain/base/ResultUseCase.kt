@@ -4,7 +4,7 @@ import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.withContext
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * ResultUseCase
  * @author leesoyoung
  * @since 2021/12/28

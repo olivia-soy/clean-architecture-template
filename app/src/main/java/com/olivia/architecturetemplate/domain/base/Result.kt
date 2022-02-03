@@ -1,7 +1,7 @@
 package com.olivia.architecturetemplate.domain.base
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * Result
  * @author leesoyoung
  * @since 2021/12/28

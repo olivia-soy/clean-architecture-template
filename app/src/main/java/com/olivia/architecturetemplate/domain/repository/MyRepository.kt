@@ -6,7 +6,7 @@ import com.olivia.architecturetemplate.domain.model.UserModel
 import kotlinx.coroutines.flow.Flow
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * repository
  * @author leesoyoung
  * @since 2021/12/28

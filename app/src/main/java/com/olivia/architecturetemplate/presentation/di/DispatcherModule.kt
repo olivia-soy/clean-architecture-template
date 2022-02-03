@@ -9,7 +9,7 @@ import kotlinx.coroutines.Dispatchers
 import javax.inject.Qualifier
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * DispatcherModule
  * @author leesoyoung
  * @since 2021/12/28

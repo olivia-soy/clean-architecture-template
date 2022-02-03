@@ -12,7 +12,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 
 /**
- * My DeliveryHero
+ * My rchictecture  template
  * NetworkModule
  * @author leesoyoung
  * @since 2021/12/28

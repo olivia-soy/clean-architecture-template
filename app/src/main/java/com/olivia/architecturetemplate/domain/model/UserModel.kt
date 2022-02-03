@@ -1,7 +1,7 @@
 package com.olivia.architecturetemplate.domain.model
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * user model
  * @author leesoyoung
  * @since 2021/12/28

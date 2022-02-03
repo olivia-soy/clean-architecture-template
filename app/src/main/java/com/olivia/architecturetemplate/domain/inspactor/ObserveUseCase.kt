@@ -12,7 +12,7 @@ import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 
 /**
- * My DeliveryHero
+ * My Architecture template
  * ObserveFavoriteUserUseCase
  * @author leesoyoung
  * @since 2021/12/28
