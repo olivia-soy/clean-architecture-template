@@ -2,9 +2,10 @@ package com.olivia.architecturetemplate.data.repositoryImpl
 
 import com.olivia.architecturetemplate.data.datasource.local.MyLocalDataSource
 import com.olivia.architecturetemplate.data.datasource.remote.MyRemoteDataSource
-import com.olivia.architecturetemplate.data.entity.User
+import com.olivia.architecturetemplate.data.mapper.toSearchUserModel
+import com.olivia.architecturetemplate.data.mapper.toUser
 import com.olivia.architecturetemplate.data.mapper.toUserModel
-import com.olivia.architecturetemplate.data.retrofit.response.SearchUserResponseData
+import com.olivia.architecturetemplate.domain.model.SearchUserModel
 import com.olivia.architecturetemplate.domain.model.UserModel
 import com.olivia.architecturetemplate.domain.repository.MyRepository
 import kotlinx.coroutines.flow.Flow
@@ -32,12 +33,14 @@ class MyRepositoryImpl @Inject constructor(
     override suspend fun requestList(
         searchWord: String,
         page: Int
-    ): SearchUserResponseData? {
-        return myRemoteDataSource.getUserBySearchWord(searchWord, page)
+    ): List<SearchUserModel>? {
+        return myRemoteDataSource.getUserBySearchWord(searchWord, page)?.items?.map {
+            it.toSearchUserModel()
+        }
     }
 
-    override suspend fun insertUser(user: User) {
-        myLocalDataSource.insertUser(user)
+    override suspend fun insertUser(user: UserModel) {
+        myLocalDataSource.insertUser(user.toUser())
     }
 
     override suspend fun deleteUser(userId: Int) {

@@ -1,8 +1,8 @@
 package com.olivia.architecturetemplate.domain.inspactor
 
 import com.olivia.architecturetemplate.domain.base.ResultUseCase
+import com.olivia.architecturetemplate.domain.di.IoDispatcher
 import com.olivia.architecturetemplate.domain.repository.MyRepository
-import com.olivia.architecturetemplate.presentation.di.IoDispatcher
 import kotlinx.coroutines.CoroutineDispatcher
 import javax.inject.Inject
 

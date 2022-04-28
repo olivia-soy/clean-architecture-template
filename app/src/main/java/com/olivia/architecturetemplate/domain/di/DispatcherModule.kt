@@ -1,4 +1,4 @@
-package com.olivia.architecturetemplate.presentation.di
+package com.olivia.architecturetemplate.domain.di
 
 import dagger.Module
 import dagger.Provides

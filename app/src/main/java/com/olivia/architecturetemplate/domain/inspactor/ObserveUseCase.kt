@@ -1,15 +1,15 @@
 package com.olivia.architecturetemplate.domain.inspactor
 
 import com.olivia.architecturetemplate.domain.base.FlowUseCase
+import com.olivia.architecturetemplate.domain.base.Result
+import com.olivia.architecturetemplate.domain.di.IoDispatcher
 import com.olivia.architecturetemplate.domain.model.UserModel
 import com.olivia.architecturetemplate.domain.repository.MyRepository
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.flow.Flow
-import javax.inject.Inject
-import com.olivia.architecturetemplate.domain.base.Result
-import com.olivia.architecturetemplate.presentation.di.IoDispatcher
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
+import javax.inject.Inject
 
 /**
  * My Architecture template

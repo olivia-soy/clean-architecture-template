@@ -1,7 +1,6 @@
 package com.olivia.architecturetemplate.domain.repository
 
-import com.olivia.architecturetemplate.data.entity.User
-import com.olivia.architecturetemplate.data.retrofit.response.SearchUserResponseData
+import com.olivia.architecturetemplate.domain.model.SearchUserModel
 import com.olivia.architecturetemplate.domain.model.UserModel
 import kotlinx.coroutines.flow.Flow
 
@@ -14,7 +13,7 @@ import kotlinx.coroutines.flow.Flow
 
 interface MyRepository {
     fun observeList(searchWord: String?): Flow<List<UserModel>>
-    suspend fun requestList(searchWord: String, page: Int): SearchUserResponseData?
-    suspend fun insertUser(user: User)
+    suspend fun requestList(searchWord: String, page: Int): List<SearchUserModel>?
+    suspend fun insertUser(user: UserModel)
     suspend fun deleteUser(userId: Int)
 }
