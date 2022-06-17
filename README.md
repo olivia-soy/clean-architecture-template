@@ -25,9 +25,10 @@ Android Clean Architecture template
   - [paging](https://developer.android.com/jetpack/androidx/releases/paging?hl=ko) 
   - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Store UI-related data that isn't destroyed on app rotations. Easily schedule asynchronous tasks for optimal execution.
 
-- UI
+- UI 
 
   - [Compose](https://developer.android.com/jetpack/compose) declarative UI framework
+  - XML
 
 - Third party and miscellaneous libraries
 
